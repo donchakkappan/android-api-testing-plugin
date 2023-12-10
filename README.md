@@ -1,4 +1,8 @@
 # android-api-testing-plugin
+
+
+![Build](https://github.com/donchakkappan/android-api-testing-plugin/actions/workflows/android.yml/badge.svg)
+
 This is an IntelliJ plugin to monitor all Android App network requests.You can also create custom requests using this plugin.
 
 This is completely developed in **Kotlin**.
