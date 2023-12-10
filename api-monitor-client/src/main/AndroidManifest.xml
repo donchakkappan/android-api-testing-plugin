@@ -22,7 +22,7 @@
 
     <application>
         <service
-                android:name=".MonitorService"
+                android:name="com.don.api_monitor_client.MonitorService"
                 android:enabled="true"
                 android:exported="false">
         </service>
