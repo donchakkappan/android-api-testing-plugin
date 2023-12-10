@@ -20,6 +20,7 @@ implementation(project(":api-monitor-client"))
 ```
 - Add Interceptor to your HTTP Client
 ```
+val lib = APIMonitoringLib
 val mOkHttpClient = OkHttpClient
             .Builder()
             .addInterceptor(lib.monitoringInterceptor(context,"IP Address of your Machine"))
