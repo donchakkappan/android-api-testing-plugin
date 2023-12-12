@@ -16,7 +16,7 @@ https://github.com/donchakkappan/android-api-testing-plugin/assets/6335190/43d0a
 - Install IntelliJ Plugin from here https://plugins.jetbrains.com/plugin/23291-android-api-testing
 - Add Android library dependency
 ```
-implementation(project(":api-monitor-client"))
+implementation("io.github.donchakkappan:api-monitor-client:1.0.0")
 ```
 - Add Interceptor to your HTTP Client
 ```
