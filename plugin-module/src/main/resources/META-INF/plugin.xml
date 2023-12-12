@@ -21,7 +21,7 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Android-Api-Testing</name>
+    <name>Android Api Testing</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="donchakkappan@gmail.com" url="https://github.com/donchakkappan/android-api-testing-plugin">GitHub
@@ -30,7 +30,19 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description><![CDATA[Intellij Plugin to monitor and test APIs.]]></description>
+    <description><![CDATA[
+        This is an IntelliJ plugin to monitor all Android App network requests.You can also create custom requests using this plugin. The following features are available :
+        <br>
+        <ul>
+          <li>Monitor all Android Network Requests</li>
+          <li>Dedicated tabs for request response headers and content</li>
+          <li>Create a new request easily from IDE</li>
+          <li>Copy as Curl</li>
+          <li>Clear everything from console</li>
+        </ul>
+        <br>
+        Support for pre-request script will be added in the upcoming release.
+      ]]></description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
