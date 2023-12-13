@@ -16,12 +16,11 @@
 
 plugins {
     id("java")
-    id("org.jetbrains.kotlin.jvm") version "1.6.20"
+    id("org.jetbrains.kotlin.jvm")
     id("org.jetbrains.intellij") version "1.5.2"
 }
 
-version = "1.0-SNAPSHOT"
-version = "1.2-SNAPSHOT"
+version = "1.3-SNAPSHOT"
 
 repositories {
     mavenCentral()

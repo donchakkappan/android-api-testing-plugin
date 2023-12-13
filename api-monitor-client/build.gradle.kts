@@ -17,14 +17,15 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    publish
 }
 
 android {
     namespace = "com.don.api_monitor_client"
-    compileSdk = 31
+    compileSdk = Sdk.COMPILE_SDK
 
     defaultConfig {
-        minSdk = 21
+        minSdk = Sdk.MIN_SDK
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")

@@ -14,12 +14,24 @@
  * limitations under the License.
  */
 
-import org.gradle.kotlin.dsl.`kotlin-dsl`
-
 plugins {
     `kotlin-dsl`
 }
 
 repositories {
+    google()
     mavenCentral()
+}
+
+object Plugins {
+    private const val VER_GRADLE = "1.6.21"
+    private const val VER_ANDROID_TOOLS = "7.0.4"
+
+    const val GRADLE = "org.jetbrains.kotlin:kotlin-gradle-plugin:${VER_GRADLE}"
+    const val ANDROID_TOOLS = "com.android.tools.build:gradle:${VER_ANDROID_TOOLS}"
+}
+
+dependencies {
+    implementation(Plugins.GRADLE)
+    implementation(Plugins.ANDROID_TOOLS)
 }

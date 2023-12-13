@@ -20,14 +20,14 @@ plugins {
 }
 
 android {
-    compileSdk = 31
+    compileSdk = Sdk.COMPILE_SDK
 
     defaultConfig {
         applicationId = "com.don.test_app"
-        minSdk = 21
-        targetSdk = 31
-        versionCode = 1
-        versionName = "1.0"
+        minSdk = Sdk.MIN_SDK
+        targetSdk = Sdk.TARGET_SDK
+        versionCode = Sdk.VERSION_CODE
+        versionName = Sdk.VERSION_NAME
 
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
     }
