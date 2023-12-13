@@ -22,8 +22,8 @@ val scmConnection: String = project.findProperty("SCM_CONNECTION") as String? ?:
 val scmDeveloperConnection: String =
     project.findProperty("SCM_DEVELOPER_CONNECTION") as String? ?: System.getenv("SCM_DEVELOPER_CONNECTION")
 
-val userName: String = System.getenv("USER_NAME")
-val pwd: String = System.getenv("PASSWORD")
+val userName: String = System.getenv("USER_NAME") ?: ""
+val pwd: String = System.getenv("PASSWORD") ?: ""
 
 
 afterEvaluate {
