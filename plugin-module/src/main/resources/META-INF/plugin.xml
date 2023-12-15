@@ -31,7 +31,7 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-        This is an IntelliJ plugin to monitor all Android App network requests.You can also create custom requests using this plugin. The following features are available :
+        This is a plugin for Android Stduio to monitor all Android App network requests.You can also create custom requests using this plugin. The following features are available :
         <br>
         <ul>
           <li>Monitor all Android Network Requests</li>
