@@ -13,12 +13,14 @@ https://github.com/donchakkappan/android-api-testing-plugin/assets/6335190/43d0a
 
 ## How to use
 
-- Install IntelliJ Plugin from here https://plugins.jetbrains.com/plugin/23291-android-api-testing
-- Add Android library dependency
+#### 1.] Install IntelliJ Plugin from marketplace
+<img width="953" alt="plugin_marketplace" src="https://github.com/donchakkappan/android-api-testing-plugin/assets/6335190/268b0c4d-2b38-4345-8982-a62117f59b0b">
+
+#### 2.] Add Android library dependency
 ```
 implementation("io.github.donchakkappan:api-monitor-client:1.0.0")
 ```
-- Add Interceptor to your HTTP Client
+#### 3.] Add Interceptor to your HTTP Client
 ```
 val lib = APIMonitoringLib
 val mOkHttpClient = OkHttpClient
